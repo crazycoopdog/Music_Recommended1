@@ -14,7 +14,7 @@ batch_size = 80
 seed = 42
 
 raw_train_ds = tf.keras.preprocessing.text_dataset_from_directory(
-    'aclImdb/train',
+    'C:/Users/denni_000/PycharmProjects/Music_Recommended11/aclImdb/train',
     batch_size=batch_size,
     validation_split=0.2,
     subset='training',
@@ -29,14 +29,14 @@ print("Label 0 corresponds to", raw_train_ds.class_names[0])
 print("Label 1 corresponds to", raw_train_ds.class_names[1])
 
 raw_val_ds = tf.keras.preprocessing.text_dataset_from_directory(
-    'aclImdb/train',
+    'C:/Users/denni_000/PycharmProjects/Music_Recommended11/aclImdb/train',
     batch_size=batch_size,
     validation_split=0.2,
     subset='validation',
     seed=seed)
 
 raw_test_ds = tf.keras.preprocessing.text_dataset_from_directory(
-    'aclImdb/test',
+    'C:/Users/denni_000/PycharmProjects/Music_Recommended11/aclImdb/test',
     batch_size=batch_size)
 
 def custom_standardization(input_data):
@@ -126,3 +126,4 @@ plt.ylabel('Loss')
 plt.legend()
 
 plt.show()
+
