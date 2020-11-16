@@ -1,1 +1,3 @@
-Make sure to change path in lines 17, 32, and 39 of main.py to the path of train.
+Make sure to change path in lines 17, 32, and 39 of main.py to the path of "train" and "test". 
+Download acIImdb.zip from Google Drive: https://drive.google.com/file/d/1DKxnkUGSYxcXy3HuSfE5-nB3LsAMTL9g/view?usp=sharing. 
+Connect to directory of "train" and "test" similar to what is already in code at specified lines. 
